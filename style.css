@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #696b79;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+header {
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    margin-left: 4%;
+}
+
+.myntra-logo {
+    height: 55px;
+}
+
+.nav-bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    margin: 0 0 0 3.5%;
+}
+
+.nav-bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 29px 0;
+    border-bottom: 2px solid #ffffff;
+    margin: 0 1rem;
+}
+
+.nav-bar a:hover {
+    border-bottom: 2px solid #ff3f6c;
+}
+
+.nav-bar a sup {
+    color: #ff3f6c;
+    font-size: 13px;
+
+}
+
+.searc-bar {
+    height: 40px;
+    min-width: 400px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-icons {
+    box-sizing: content-box;
+    /* height: 20px; */
+    padding: 8px 10px 10px;
+    background: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-input {
+    float: right;
+    color: #696e79;
+    font-size: 14px;
+    background: #f5f5f6;
+    height: 42px;
+    flex-grow: 1;
+    border-radius: 0 4px 4px 0;
+    border: 0;
+    padding: 8px 10px 10px;
+
+}
+
+.action-bar {
+    margin-right: 4%;
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.category-container {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.offer-banner-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img img {
+    width: 100%;
+}
+.brand-name-1{
+    display: flex;
+}
+.brand-name-1 img{
+    width: 100%;
+}
+.brand-name-2{
+    display: flex;
+}
+.brand-name-2 img{
+    width: 314px;
+}
+.brand-name-3 img{
+    width: 100%;
+
+}
+.brand-name-4{
+    display: flex;
+    width: 100%;
+}
+.brand-name-4 img{
+    width: 628px;
+    
+}
+.offer-banner-2 img{
+    width: 100%;
+
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.items-container img {
+    width: 208.5px;
+}
+
+.offer-banner-3 img {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.FOOTER {
+    background: #FAFBFC;
+    margin-top: 2rem;
+    padding: 0 5rem;
+}
+
+.desktop-genericInfo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.FOOTER h3{
+    font-size: 13px;
+}
+.shopping-link-category{
+    padding-top: 2rem;
+}
+.shopping-link-category a {
+    display: block;
+    font-size: 14px;
+}
+
+
+.shopping-link-app {
+    padding: 2rem 0;
+    display: flex;
+} 
+
+.shopping-link-app img {
+    width: 130px;
+    height: 50px;
+    padding: 5px;
+}
+.original {
+    display: flex;
+    align-items: center;
+}
+
+.original img {
+    width: 50px;
+}
+
+.original p {
+    margin-left: 1rem;
+}
+
+.return img {
+    width: 50px;
+}
+
+.return p {
+    margin-left: 1rem;
+}
+
+.return {
+    display: flex;
+    align-items: center;
+}
+
+.popular-search {
+    margin-top: 1.5rem;
+}
+
+.seacrh-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+}
+.seacrh-items a{
+    padding-left: 0.5rem;
+}
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 0;
+}
+
+hr {
+    border: 1px;
+    height: 1px;
+    background-color: #eaeaec;
+}
+
+.address-container {
+    margin: 2rem 0;
+}
+
+.contact-info {
+    display: flex;
+    color: #94969f;
+}
+
+.address {
+    margin: 1rem 0;
+    font-size: 15px;
+    width: 70%;
+}
+
+.customer-care {
+    margin-top: 100px;
+    font-size: 15px;
+}
+.customer-care p{
+    padding: 0px;
+}
+
+.gyanContainer {
+    font-size: 15px;
+
+}
+
+.gyanContainer h3 {
+    margin-top: 2rem;
+    color: #535766 !important;
+}
+
+ .gyanContainer p {
+    padding: 1rem 0;
+    color: #94969f;
+}
+
+.gyanContainer p b {
+    color: #535766 !important;
+    font-size: 15px;
+}
+
+ul,
+ol {
+    margin-left: 3rem;
+    color: #94969f;
+}
+
+strong {
+    color: #535766 !important;
+}
